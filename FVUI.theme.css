@@ -246,7 +246,7 @@ bd-body .floating-window {
 	/*----------Blur is my life----------*/
 
 	/* Submenu with reactions */
-.submenu-1apzyU.menu-1QACrS[id^="guild-context-mute-guild--"]{
+.submenu-1apzyU.menu-1QACrS[id^="guild-context-mute-guild--"],.flexible-1UoeVa{
 	background:transparent;
 	backdrop-filter: blur(20px);
 	border-radius: 35px;
@@ -1174,8 +1174,8 @@ backdrop-filter: blur(15px);}
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;
-	-webkit-mask-box-image:url("https://i.ibb.co/82Mx4CL/1.png");
-	mask-image:url("https://i.ibb.co/82Mx4CL/1.png")}
+	-webkit-mask-box-image:url("https://cdn-icons-png.flaticon.com/512/24/24028.png");
+	mask-image:url("https://cdn-icons-png.flaticon.com/512/24/24028.png")}
 #app-mount .folder-241Joy{
 	background-color:transparent!important}
 #app-mount .expandedFolderBackground-1kSAf6{
