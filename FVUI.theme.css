@@ -1,3 +1,4 @@
+
 	/*----------imports----------*/
 
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
@@ -246,7 +247,7 @@ bd-body .floating-window {
 	/*----------Blur is my life----------*/
 
 	/* Submenu with reactions */
-.submenu-1apzyU.menu-1QACrS[id^="guild-context-mute-guild--"],.flexible-1UoeVa{
+.submenu-1apzyU.menu-1QACrS[id^="guild-context-mute-guild--"]{
 	background:transparent;
 	backdrop-filter: blur(20px);
 	border-radius: 35px;
@@ -258,7 +259,7 @@ bd-body .floating-window {
 	border-radius: 35px;
 	filter: brightness(80%)}
 	/* Submenu with reactions */
-	
+
 	/*RMB*/
 .menu-1QACrS:not(#account,.submenu-1apzyU)::before {
 	position: absolute;
