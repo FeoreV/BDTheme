@@ -565,6 +565,10 @@ filter: drop-shadow(0 0 2px currentColor);
 	background:var(--backgroundColor01)
 	width:150%;}
 
+.menu-1QACrS {
+    box-shadow: none;
+    background: transparent;
+}
 	/*centred member box*/
 .members-3WRCEx {
     background: var(--background-secondary-alt);
