@@ -537,7 +537,7 @@ filter: drop-shadow(0 0 2px currentColor);
   box-shadow: 0 0 50px 0 rgb(38, 121, 245);
 }
 
-	/*transparent scrollbar*/
+	/*transparent scrollbar
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-track-piece {
@@ -549,7 +549,7 @@ filter: drop-shadow(0 0 2px currentColor);
   background-clip: content-box !important;
   background: transparent !important;
 }
-	/*transparent scrollbar*/
+	transparent scrollbar*/
 
 	/*channel/user searcher*/
 .quickswitcher-pKcM9U,.container-qBnZJg{
