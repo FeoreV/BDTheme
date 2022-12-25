@@ -9,7 +9,7 @@
 
 
 
-:root {
+:root.theme-dark {
     --accent-hue: 213;
     --accent-saturation: 100%;
     --accent-brightness: 50%;
@@ -27,10 +27,7 @@
     --window-border-radius: 10px;
     --window-background-lightness: 0;
     --window-accent-tint-strength: 5%;
-}
-
-:root {
-    --background-primary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-primary-border-l));
+	--background-primary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-primary-border-l));
     --background-secondary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-secondary-border-l));
     --background-primary-border: 1px solid var(--background-primary-border-color);
     --background-secondary-box-shadow-border: 0 0 0 1px var(--background-secondary-border-color);
@@ -38,18 +35,83 @@
     --background-secondary-border-l: calc(22% * (1 + var(--window-background-lightness)));
 }
 
-/* New Year */
-.message-2CShn3.groupStart-3Mlgv1:not(.systemMessage-1H1Z20) .contents-2MsGLg::before {
-content: '';
-width: 48px;
-height: 48px;
-background: url("https://i.imgur.com/G260nlo.png") center/cover;
-transform: translate(-56px, -24px);
-z-index: 99999;
-position: absolute;
-pointer-events: none;
+:root.theme-dark{ /*nocturnal*/
+	--backgroundColor01:#1e2731;
+	--backgroundColor02:#12171d;
+	--mainColor:#2679F5	;
+	--gradientColor01:#00FFA2;
+	--gradientColor02:#2679F5;
+	--backgroundCode:#1e2731;
+	--backgroundName:rgba(0, 0, 0, 0.2);
+	--rs-small-spacing:2px;
+	--rs-medium-spacing:3px;
+	--rs-large-spacing:4px;
+	--rs-small-width:2px;
+	--rs-medium-width:3px;
+	--rs-large-width:4px;
+	--rs-width:2px;
+	--rs-avatar-shape:50%;
+	--rs-online-color:#43b581;
+	--rs-idle-color:#faa61a;
+	--rs-dnd-color:#f04747;
+	--rs-offline-color:#636b75;
+	--rs-streaming-color:#643da7;
+	--rs-invisible-color:#747f8d;
+	--rs-phone-visible:block;
+	--rs-phone-color:var(--rs-online-color);}
+	
+:root.theme-light{ /*nocturnal*/
+	--backgroundColor01:#c5c8d4; /*second*/
+	--backgroundColor02:#e1e5f2; /*main background*/
+	--mainColor:#2679F5;
+	--gradientColor01:#00FFA2;
+	--gradientColor02:#2679F5;
+	--backgroundCode:#1e2731;
+	--backgroundName:rgba(0, 0, 0, 0.2);
+	--rs-small-spacing:1px;
+	--rs-medium-spacing:3px;
+	--rs-large-spacing:4px;
+	--rs-small-width:3px;
+	--rs-medium-width:3px;
+	--rs-large-width:4px;
+	--rs-width:2px;
+	--rs-avatar-shape:100%;
+	
+	--rs-online-color:#00ff0d;
+	--rs-idle-color:#faa61a;
+	--rs-dnd-color:#f04747;
+	--rs-offline-color:#636b75;
+	--rs-streaming-color:#643da7;
+	--rs-invisible-color:#747f8d;
+	--rs-phone-visible:block;
+	--rs-phone-color:var(--rs-online-color);}
+	
+:root.theme-light {
+    --accent-hue: 213;
+    --accent-saturation: 100%;
+    --accent-brightness: 50%;
+    --background-accent-hue: 213;
+    --background-accent-saturation: 100%;
+    --background-accent-brightness: 50%;
+    --window-background-image: initial;
+    --window-background-image-position: center;
+    --window-background-image-attachment: fixed;
+    --window-opacity: 100%;
+    --window-blur: 1;
+    --window-friends-blur: 0;
+    --window-margin: 24;
+    --window-margin-left: 0;
+    --window-border-radius: 10px;
+    --window-background-lightness: 0;
+    --window-accent-tint-strength: 5%;
+	--background-primary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-primary-border-l));
+    --background-secondary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-secondary-border-l));
+    --background-primary-border: 1px solid var(--background-primary-border-color);
+    --background-secondary-box-shadow-border: 0 0 0 1px var(--background-secondary-border-color);
+    --background-primary-border-l: calc(26% * (1 + var(--window-background-lightness)));
+    --background-secondary-border-l: calc(22% * (1 + var(--window-background-lightness)));
+	--background-secondary: rgb(19, 2, 74)
 }
-
 	/*----------animations----------*/
 
 	/* Emoji Auto-Fill Animation */
@@ -852,31 +914,7 @@ backdrop-filter: blur(15px);}
 
 
 /*nocturnal*/
-:root{
-	--backgroundColor01:#1e2731;
-	--backgroundColor02:#12171d;
-	--mainColor:#2679F5	;
-	--gradientColor01:#00FFA2;
-	--gradientColor02:#2679F5;
-	--backgroundCode:#1e2731;
-	--backgroundName:rgba(0, 0, 0, 0.2);
-	--rs-small-spacing:2px;
-	--rs-medium-spacing:3px;
-	--rs-large-spacing:4px;
-	--rs-small-width:2px;
-	--rs-medium-width:3px;
-	--rs-large-width:4px;
-	--rs-width:2px;
-	--rs-avatar-shape:50%;
-	--rs-online-color:#43b581;
-	--rs-idle-color:#faa61a;
-	--rs-dnd-color:#f04747;
-	--rs-offline-color:#636b75;
-	--rs-streaming-color:#643da7;
-	--rs-invisible-color:#747f8d;
-	--rs-phone-visible:block;
-	--rs-phone-color:var(--rs-online-color);
-	}
+
 .activity-E0U09Y{border-radius: 16px}
 #app-mount .userProfileInnerThemedNonPremium-1gT-zY{
 	background:var(--backgroundColor01)}
@@ -884,7 +922,7 @@ backdrop-filter: blur(15px);}
 #app-mount .bg-1QIAus,
 #app-mount .chat-2ZfjoI,
 #app-mount .container-1NXEtd,
-#app-mount .modalSize-3WSXDU,.small-23Atuv,.modal-6GHvdM,.footer-31IekZ,.header-1zd7se,.content-2hZxGK,.scroller-3X7KbA,.container-1oeRFJ,.list-3FIpnh,.container-3arpDl/*хуй*/,.form-3gdLxP,.container-3YcgdM,.content-2eQb8J,.container-3HMTms,.sidebar-1tnWFu,.guildSidebar-UHnQqs,.container-QlmnKJ,.previewMessage-2g_aBv,.directoryModal-YJsOMv,.messagesWrapper-RpOMA3,.none-2-_0dP,
+#app-mount .modalSize-3WSXDU,.small-23Atuv,.modal-6GHvdM,.footer-31IekZ,.header-1zd7se,.content-2hZxGK,.scroller-3X7KbA,.container-1oeRFJ,.list-3FIpnh,.container-3arpDl/*хуй*/,.form-3gdLxP,.container-3YcgdM,.content-2eQb8J,.container-3HMTms,.sidebar-1tnWFu,.guildSidebar-UHnQqs,.container-QlmnKJ,.previewMessage-2g_aBv,.directoryModal-YJsOMv,.messagesWrapper-RpOMA3,.none-2-_0dP,.userPopoutOverlayBackground-dKOOda,
 #app-mount .container-2cd8Mz,
 #app-mount .container-7Unqij,
 #app-mount .container-ZMc96U.themed-Hp1KC_,
