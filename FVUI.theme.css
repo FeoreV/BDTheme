@@ -112,6 +112,21 @@
     --background-secondary-border-l: calc(22% * (1 + var(--window-background-lightness)));
 	--background-secondary: rgb(19, 2, 74)
 }
+
+
+	/* Christmas hat */
+.message-2CShn3.groupStart-3Mlgv1:not(.systemMessage-1H1Z20) .contents-2MsGLg::before {
+content: '';
+width: 48px;
+height: 48px;
+background: url("https://i.imgur.com/G260nlo.png") center/cover;
+transform: translate(-56px, -24px);
+z-index: 99999;
+position: absolute;
+pointer-events: none;
+}
+
+
 	/*----------animations----------*/
 
 	/* Emoji Auto-Fill Animation */
