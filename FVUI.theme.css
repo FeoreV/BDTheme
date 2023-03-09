@@ -103,7 +103,7 @@ to{
   }
 }
 .pictureInPicture-1GQX91::after {
-  content: "Nocturnal";
+  content: "FVUI";
   position: absolute;
   font-size: 75px;
   color: var(--mainColor);
@@ -163,7 +163,7 @@ to{
 }
 
 .pictureInPicture-1GQX91::after {
-  content: "Nocturnal";
+  content: "FVUI";
   position: absolute;
   font-size: 75px;
   color: var(--mainColor);
@@ -733,7 +733,7 @@ button:hover,.icon-2xnN2Y:hover{animation: wave-text 1s ease-in-out infinite}
 }
 .wordmarkWindows-2dq6rw::after {
 	color: var(--mainColor);
-    content: 'Nocturnal';
+    content: 'FVUI';
     font-size: 16px;
     font-weight: 900;
     top:0px;
