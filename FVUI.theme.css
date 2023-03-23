@@ -8,6 +8,10 @@
     font-family: "Comfortaa";
 }
 
+[id^="popout_"]:not([style^="position: fixed"]) {
+    backdrop-filter: blur(20px);
+}
+
 .btn-2t4qw2.button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N.sizeSmall-3R2P2p.fullWidth-3M-YBR.grow-2T4nbg,.button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N.sizeSmall-3R2P2p.grow-2T4nbg,.fieldButton-14lHvK.button-ejjZWC.lookFilled-1H2Jvj.colorPrimary-2-Lusz.sizeSmall-3R2P2p.grow-2T4nbg:hover,.fieldButton-14lHvK.removeButton-v6eolJ.button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz.sizeSmall-3R2P2p.grow-2T4nbg:hover{background-color: var(--mainColor)!important;border-radius:16px!important}
 
 :root.theme-dark {
