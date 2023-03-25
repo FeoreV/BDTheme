@@ -2,13 +2,33 @@
 @import url("https://discordstyles.github.io/SoftX/ServerRings.css");
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css");
 @import url("https://xcruxiex.github.io/themes/core/hljs.css");
-
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap%27');
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: "Comfortaa";
 }
 
+
+
+ 
+.layer-86YKbF{opacity:1!important;background-color:rgba(18, 23, 29,0.9)!important;backdrop-filter:blur(8px)}
+
+
 .btn-2t4qw2.button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N.sizeSmall-3R2P2p.fullWidth-3M-YBR.grow-2T4nbg,.button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N.sizeSmall-3R2P2p.grow-2T4nbg,.fieldButton-14lHvK.button-ejjZWC.lookFilled-1H2Jvj.colorPrimary-2-Lusz.sizeSmall-3R2P2p.grow-2T4nbg:hover,.fieldButton-14lHvK.removeButton-v6eolJ.button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz.sizeSmall-3R2P2p.grow-2T4nbg:hover,.barFill-3RgCsY{background-color: var(--mainColor)!important;border-radius:16px!important}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 :root.theme-dark {
     --accent-hue: 213;
@@ -34,6 +54,8 @@
     --background-secondary-box-shadow-border: 0 0 0 1px var(--background-secondary-border-color);
     --background-primary-border-l: calc(26% * (1 + var(--window-background-lightness)));
     --background-secondary-border-l: calc(22% * (1 + var(--window-background-lightness)));
+	--background-primary: transparent !important; 
+	--background-secondary: transparent !important; 
 	/*main*/
   --backgroundColor01: #1e2731;
   --backgroundColor02: #12171d;
@@ -705,7 +727,7 @@ button:hover,.icon-2xnN2Y:hover{animation: wave-text 1s ease-in-out infinite}
 .button-ejjZWC .contents-3NembX {
     background-image:none;
 }
-	/*underline fucker he*/
+	/*underline fucker */
 .selected-1sf9UK{animation: wave-text 1s ease-in-out infinite}
 
 	/*discord rename*/
@@ -713,13 +735,12 @@ button:hover,.icon-2xnN2Y:hover{animation: wave-text 1s ease-in-out infinite}
     display:none;
 }
 .wordmarkWindows-2dq6rw::after {
+		left: 50%;
 	color: var(--mainColor);
     content: 'FVUI';
     font-size: 16px;
     font-weight: 900;
-    top:0px;
-    left: 1000px;
-    position: relative;
+    position: fixed;
 	filter: drop-shadow(0 0 10px currentColor);
 }
 	/*discord rename*/
@@ -813,7 +834,9 @@ position:relative}
 .cameraWrapper-nG8dpo,
 .flexCenter-1Mwsxg.flex-3BkGQD.justifyCenter-rrurWZ.alignCenter-14kD11.activeGame-1OdxzI.notDetected-M3Ghh2,
 .wrapper-22rqw6.categoryListWithSearch-2jrzH6.categoryList-2GgCrD,
-.searchBar-2M9mRP.container-1SX9VC.medium-13kyaW
+.searchBar-2M9mRP.container-1SX9VC.medium-13kyaW,
+.message-G6O-Wv,
+.modeSelected-3DmyhH>.content-1gYQeQ
 {background-color:var(--backgroundColor01)!important}
 
 
@@ -872,9 +895,7 @@ position:relative}
 .cozy-3hKWhq,
 .videoFrame-11rde6,
 .modalSize-3WSXDU,
-.sidebarRegionScroller-FXiQOh,
-.contentColumn-1C7as6,
-.contentRegionScroller-2_GT_N,
+
 .root-22AK9z,
 .layout-1qmrhw,
 .bg-1QIAus,
@@ -904,7 +925,8 @@ position:relative}
 .themeEditor-1Ebyfp,
 .previewMessage-2g_aBv,
 .select-Zz0IcO.lookFilled-GPyucw,
-.bd-settings-group.collapsible.collapsed
+.bd-settings-group.collapsible.collapsed,
+.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.header-1ffhsl.header-DdKz5e,.content-1OG56Q 
 {background-color:var(--backgroundColor02)!important}
 
 .inner-1lPVFp.accountButtonInner-33vCDY,.accountAddInner-2y9WLL.accountButtonInner-33vCDY{
