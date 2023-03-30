@@ -29,9 +29,6 @@
 	--opacity01b: rgb(30, 40, 50, 0.2);
 	--opacity02b: rgb(18, 23, 30, 0.2);
 	--opacity03: rgb(35, 120, 200,0.5);
-	/* Better Hljs */
-	--backgroundCode: #1e2731;
-	--backgroundName: rgba(0, 0, 0, .2);
 	/* Radial Status */
 	--rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
 	--rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
@@ -66,9 +63,6 @@
 	--opacity02a: rgb(219, 219, 219, 0.6);
 	--opacity01b: rgb(211, 204, 227, 0.2);
 	--opacity02b: rgb(219, 219, 219, 0.2);
-	/* Better Hljs */
-	--backgroundCode: #1e2731;
-	--backgroundName: rgba(0, 0, 0, .2);
 	/* Radial Status */
 	--rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
 	--rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
