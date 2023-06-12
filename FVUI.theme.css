@@ -1,2 +1,5 @@
 @import url("https://feorev.github.io/Themes/Discord/main.theme.css");
 @import url("https://feorev.github.io/Themes/Discord/FVUIDEF.theme.css")
+:root{
+  --version: "I recommend deleting all lines after importing the main theme."
+}
